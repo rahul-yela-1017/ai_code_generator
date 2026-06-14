@@ -1,0 +1,4 @@
+# The Python code block that can convert the uppercase letters as lower case.  
+def make_lower(str):    # Defining function, parameter 's' is a str (string) which we want to change its casing from UpperCase ('upper') . It will return same string in Lower Case('lowercase').  In Python both are considered the similar because all characters of uppercase have lower case counterparts.
+    """Returns original character with no changes if it's not an alphabet""" # This line is for documentation, and can be removed or changed as per requirement .  
+     return str          # The code to make string in 'str', so that the Python interpreter knows how we want our function/method (make_lower)  work. If this was just a simple if-statement returning something it would only get executed when you call "return". In fact, all functions and methods start with def followed by name of method which is to be made lower case in string format ie `def make_lowercase(s):` .

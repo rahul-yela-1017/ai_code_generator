@@ -1,0 +1,2 @@
+def convert_upper(s):   # define function to be called with a string parameter s - input variable for method/function and can accept an argument (or parameters) in Python, the name of which is optional. In this context 'convert uppercase strings', we are passing as arguement from where it gets call 
+    return "".join(c.lower() if c.isupper() else c for c in s) # Using join method to combine string characters and then apply . lower() function which makes the character small case (if not already), otherwise keep same charactes, similar as map but without list comprehension
